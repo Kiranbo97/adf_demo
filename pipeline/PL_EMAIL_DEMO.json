@@ -58,7 +58,7 @@
 				"typeProperties": {
 					"variableName": "logic_apps_body",
 					"value": {
-						"value": "{ \"email_recepient\":\"@{pipeline().parameters.email_recepient}\",\n  \"subject\":\"@{variables('email_subject')}\",\n  \"body\" : \"@{variables('email_body')}\"\n}",
+						"value": "{ \"email_recepients\":\"@{pipeline().parameters.email_recepients}\",\n  \"subject\":\"@{variables('email_subject')}\",\n  \"body\" : \"@{variables('email_body')}\"\n}",
 						"type": "Expression"
 					}
 				}
@@ -105,7 +105,7 @@
 			"status": {
 				"type": "string"
 			},
-			"email_recepient": {
+			"email_recepients": {
 				"type": "string"
 			}
 		},
