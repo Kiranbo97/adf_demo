@@ -1,0 +1,22 @@
+{
+	"name": "demo-adf-kiran",
+	"properties": {
+		"globalParameters": {
+			"email_recepient": {
+				"type": "string",
+				"value": "bokirankumar@gmail.com"
+			}
+		},
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true,
+			"isExplicitlySet": false
+		}
+	},
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "ebb38a44-3845-4e02-8ffb-abd50572a453",
+		"tenantId": "46aee882-0801-4b74-84c5-bc058207b17e"
+	}
+}
