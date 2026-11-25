@@ -25,6 +25,9 @@
 		},
 		"TGR_EVENT_SIMPLE_properties_typeProperties_scope": {
 			"value": "/subscriptions/51294b0c-20d7-4f45-aa6c-71aab021896f/resourceGroups/test/providers/Microsoft.Storage/storageAccounts/demodatakiran"
+		},
+		"AzureKeyVault1_properties_typeProperties_baseUrl": {
+			"value": "https://demo-datakiran.vault.azure.net/"
 		}
 	}
 }
